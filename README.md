@@ -15,7 +15,7 @@ Carl Yang, Lingrui Gan, Zongyi Wang, Jiaming Shen, Jinfeng Xiao, Jiawei Han, "Qu
    - penalty_functions.py  -   Penalty functions
    - SetEvolve.py          -   Main algorithm
 
-   \*BaseGraphicalLasso.py, StaticGL.py, DataHandler.py, penalty_functions.py are adopted from: 
+   \*BaseGraphicalLasso.py, StaticGL.py, DataHandler.py, penalty_functions.py are adopted from:  
     Time-Varying Graphical Lasso, https://github.com/tpetaja1/tvgl
 
    Folders:
@@ -42,17 +42,17 @@ Implemented in Python2, with numpy, scipy and multiprocessing
   2. discrete param (discrete=2, otherwise=1)
   3. number of blocks
   4. lambda
-  5. output result matrix[optional, 0 as default], x means the xth network inference will be output as adjacency list
+  5. output result matrix(optional, 0 as default), x means the xth network inference will be output as adjacency list
 
 
-## Example Input
+## Input
 
   See folder case_study, an input file contains:
   1. one line of entities
   2. followed by multiple lines of time dependent observations (the first column is just timestamp and not used for computation)
 
 
-## Example Output
+## Output
 
    - result_draw.json      -   the specified network inference output, for the purpose of easy drawing
    - network_results       -   output folder from the algorithm, network inferences
