@@ -1,7 +1,16 @@
-# SetEvolve
+## Implementation of *SetEvolve*, CIKM 2019.
 
-This is the code for SetEvolve, the main algorithm proposed in the following paper for handling entity evolutionary networks
+Please cite the following work if you find the code useful.
 
+```
+@inproceedings{yang2019setevolve,
+	Author = {Yang, Carl and Gan, Lingrui and Wang, Zongyi and Shen, Jiaming and Xiao, Jinfeng and Han, Jiawei},
+	Booktitle = {CIKM},
+	Title = {Query-specific knowledge summarization with entity evolutionary networks},
+	Year = {2019}
+}
+```
+Contact: Carl Yang (yangji9181@gmail.com)
 
 ## Publication
 Carl Yang, Lingrui Gan, Zongyi Wang, Jiaming Shen, Jinfeng Xiao, Jiawei Han, "Query-Specific Knowledge Summarization with Entity Evolutionary Networks", CIKM19.
